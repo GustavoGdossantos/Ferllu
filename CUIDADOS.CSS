@@ -1,0 +1,305 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    /* font-family: 'Black Pastel', sans-serif; */
+    font-family: 'Montserrat';
+}
+/* CSS cabeçalho */
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: none;  
+    color: #EFEFEF;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #802d69;
+    color: #EFEFEF;
+    width: 100%;
+    padding-bottom: 0.4em;
+    font-family: 'Montserrat';font-size: 15px;
+}
+.ul1{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.ul2{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0em 0em 0em;
+}
+li :hover{
+    text-decoration: underline 0.1em;
+}
+.logo{
+    width: 13%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    height: 5em;
+    padding: 1em 0em 0em 0em;
+}
+nav{
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+.h1logo{
+    text-align: center;
+    font-family: 'Black Pastel', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: normal;
+}
+.nav2{
+    width: 20%;
+}
+.icone{
+    height: 2em;
+}
+/* CSS cabeçalho */
+
+/* CSS como cuidar */
+.comocuidar{
+    display: flex;
+    background: #a95393;
+}
+.comodiv{
+    padding: 2em 0em 2em 2em;
+}
+.comodiv h1{
+    margin-bottom: 0.3em;
+    font-weight: normal;
+    font-size:  35px;
+}
+.comocuidar img{
+    height: 18em;
+    border-radius: 1em;
+}
+.comodivIMG{
+    padding: 2em;
+}
+.divbotão{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 30%;
+}
+.divbotãodentro{
+    width: 20%;
+    padding: 0.5em;
+    border-radius: 2em;
+    background: #EFEFEF;
+    text-align: center;
+}
+/* CSS como cuidar */
+
+/* CSS Dicas */
+.dicasfora{
+    padding: 4em;
+}
+.dicasdentro{
+    display: flex;
+    background: #802d69;
+}
+.dicasdentro img{
+    height: 25em;
+    border-radius: 2em;
+    box-shadow: 0.4em 0.4em 2em 0.5em;
+}
+.dicasdentroimg{
+    height: 25em;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+.dicastextos h1{
+    margin-bottom: 0.3em;
+    font-weight: normal;
+    font-size:  35px;
+}
+.dicastextos{
+    padding: 2em 0em 2em 2em;
+}
+/* CSS Dicas */
+
+/* CSS cuidado orquideas */
+.divorquideatexto{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.dicasorquideas{
+    background: #EFEFEF;
+    margin-bottom: 4em;
+}
+.orquideatitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    font-weight: normal;
+}
+.orquideatitulo h1{
+    font-size:  35px;
+    font-weight: normal;
+}
+.orquideatexto{
+    width: 23em;
+    padding: 0em 1em 1em 1em;
+}
+/* CSS cuidado orquideas */
+
+/* CSS capa */
+.capa{
+    height: 25em;
+    background-image: url(Fotos/Capa2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+/* CSS capa */
+
+
+/* CSS footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #a95393;
+}
+.rodapé{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    color: #EFEFEF;
+}
+.imgfooter img{
+    height: 6em;
+}
+.imgfooter{
+    border: 0.1em solid black;
+    align-items: center;
+}
+.rodapé img{
+    height: 20em;
+}
+.divfooter{
+    display: flex;
+    flex-direction: column;
+    padding: 0em 0em 0em 2em;
+}
+.sobrenos{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contato{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.foot{
+    color: #EFEFEF;
+    font-size: 1.3em;
+}
+/* CSS footer */
+
+@media (max-width: 1201px) and (min-width: 980px){
+.comocuidar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comodiv{
+    padding: 2em 2em 2em 2em;
+}
+.divbotão{
+    justify-content: center;
+    margin-top: 2em;
+}
+.nav1{
+    width: 55%;
+}
+}
+
+@media (max-width: 981px) and (min-width: 700px){
+.comocuidar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comodiv{
+    padding: 2em 2em 2em 2em;
+}
+.divbotão{
+    justify-content: center;
+    margin-top: 2em;
+}
+.dicasdentro img{
+    height: 20em;
+}
+.nav1{
+    width: 65%;
+}
+nav{
+    width: 75%;
+}
+}
+
+@media (max-width: 701px) and (min-width: 420px){
+.comocuidar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comocuidar img{
+    height: 14em;
+    border-radius: 1em;
+}
+.comodiv{
+    padding: 2em 2em 2em 2em;
+}
+.divbotão{
+    justify-content: center;
+    margin-top: 2em;
+}
+.dicasdentro{
+    display: flex;
+    flex-direction: column;      
+}
+.dicastextos{
+    padding: 2em 2em 2em 2em;
+}
+.dicasdentroimg{
+    justify-content: center;
+    padding: 2em;   
+}
+nav{
+    width:85%;
+}
+.nav1{
+    width: 80%;
+}
+.logo{
+    width: 8%;
+}
+.logo img{
+    height: 4em;
+    padding: 1em 0em 0em 2em;
+}
+.icone{
+    height: 1.5em;
+}
+}

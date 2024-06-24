@@ -1,0 +1,738 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #FFFF;
+    --plum: #802d69;
+    --tapestry: #A95393;
+    --alto: #d8d8d8;
+    --black: #0000;
+    --gallery: #efefef;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #802d69;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+li :hover {
+    text-decoration: underline 0.1em;
+}
+
+.logo img {
+    height: 5em;
+    width: auto;
+    padding: 0;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1logo {
+    text-align: center;
+    font-family: 'Black Pastel', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 0;
+    flex: 1;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.ul1 li {
+    padding: 0 10px;
+}
+
+.ul2 {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.ul2 li {
+    margin: 0 5px;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.icone {
+    max-width: 100%;
+    height: 25px;
+}
+
+.quemsomos {
+    background-color: var(--tapestry);
+    color: white;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: x-large
+}
+.quemsomos h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 230px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+.caixacinza {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--gallery);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 100%;
+    gap: 4%;
+}
+.caixacinza-titulo{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.caixacinza-text{
+    font-family: Montserrat;
+    font-size: 25px;
+}
+.coluna p{
+    text-align: center;
+    gap: 4%;
+}
+
+.div {
+    background-color: var(--tapestry);
+    display: flex;
+}
+
+.div h1 {
+    position: relative;
+    color: #EFEFEF;
+    text-align: right;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.paragraf {
+    color: #EFEFEF;
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+
+.historia {
+    background-color: var(--plum);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    color: #EFEFEF;
+}
+
+.historia-img{
+    box-sizing: border-box;
+    height: 50%;
+    left: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px hidden;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.texthist {
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img-final{
+    display: flex;
+}
+footer {
+    background: #a95393;
+    display: flex;
+    font-family: 'Montserrat';
+    color: #EFEFEF;
+}
+
+footer img {
+    height: 20em;
+}
+
+.divfooter {
+    display: flex;
+    flex-direction: column;
+    padding: 0em em 0em 2em;
+}
+
+.sobrenos {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    color: #EFEFEF;
+    font-size: 1.3em;
+}
+
+.div-foot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    columns: center;
+    margin: 20px;
+    margin-right: 115px;
+}
+
+.logo-bpk {
+    display: flex;
+    height: 70px;
+    right: 30%;
+    margin-top: 90px;
+}
+
+.logo-bpk2 {
+    height: 50px;
+
+}
+
+.div-foot2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    columns: center;
+    margin: 70px;
+    margin-top: 190px;
+}
+
+.div-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    columns: center;
+    margin: 45px;
+    margin-right: 65px;
+}
+
+
+.caixacinza h2 {
+    font-size: 26pt;
+}
+
+.cabe {
+    margin-left: 10px;
+}
+
+.imgpla {
+    margin: 0;
+    width: 300px;
+    height: 300px;
+
+}
+
+@media (max-width: 1920px) and (min-width: 1441px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 1440px) and (min-width: 961px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+    }
+
+    nav {
+        display: flex;
+        width: 78%;
+    }
+
+    .nav1 {
+        display: flex;
+        width: 70%;
+    }
+
+    .nav2 {
+        display: flex;
+        width: 20%;
+    }
+
+    footer img {
+        height: 12em;
+    }
+
+    .logo-bpk {
+        height: 70px;
+        margin-top: 40px;
+    }
+
+    .logo-bpk2 {
+        height: 45px;
+    }
+
+    .div-foot2 {
+        margin: 135px;
+        margin-right: 80px;
+    }
+
+    .div-feature {
+        margin-top: 20px;
+    }
+
+    .ul1 {
+        gap: 5%;
+    }
+
+    .ul2 {
+        gap: 1%;
+        margin-right: 10%;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 960px) and (min-width: 577px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 20%;
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav {
+        width: 78%;
+    }
+
+    .nav1 {
+        width: 70%;
+    }
+
+    .nav2 {
+        width: 20%;
+        margin: 1%;
+    }
+
+    footer img {
+        height: 12em;
+    }
+
+    .logo-bpk {
+        height: 55px;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .logo-bpk2 {
+        height: 30px;
+        align-items: center;
+    }
+
+    .div-foot {
+        margin-right: 100px;
+        align-items: center;
+    }
+
+    .div-foot2 {
+        margin: 135px;
+        margin-right: 80px;
+        align-items: center;
+    }
+
+    .div-feature {
+        margin-top: 20px;
+        margin-right: 50px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #802d69;
+        color: #ffffff;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1%;
+        width: 20%;
+        text-align: center;
+    }
+
+    .nav1 {
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+
+    h1logo {
+        text-align: center;
+        font-family: 'Black Pastel', sans-serif;
+        font-size: 1.5em;
+        margin: 0.5em 0;
+
+    }
+
+
+    .nav1 ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 0.5em;
+    }
+
+    .nav1 li {
+        margin: 0 10px;
+    }
+
+    .nav2 {
+        display: flex;
+        text-align: right;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav2 ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .quemsomos h1{
+        margin: 0;
+        font-size: 30px;
+    }
+   
+    .paragraf{
+        font-size: 17px;
+        padding: 10px 5%;
+    }
+    
+    .texthist h1{
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .texthist{
+        font-size: 17px;
+    }
+    .historia{
+        margin: 0;
+        margin-bottom: 50px;
+        padding: 0;
+        flex-direction: column;
+    }
+    .historia-img {
+        display: flex;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 90%;
+    }
+    .div {
+        display: flex;
+        flex-direction: column;
+        font-size: xx-large;
+    }
+
+    .quemsomos {
+        padding: 0;
+        padding-top: 15px;
+        padding-left: 15px;
+        font-size: x-large;
+    }
+
+
+    .row{
+        gap: 40px;
+        flex-direction: column;
+    }
+        .caixacinza {
+        flex-direction: column;
+    }
+    .caixacinza-titulo{
+        font-size: 30px;
+    }
+    .caixacinza-text {
+        font-size: 20px
+    }
+
+    .historia {
+        font-size: xx-large;
+    }
+
+    .caixacinza {
+        font-size: xx-large;
+    }
+}
+
+@media (max-width: 576px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #802d69;
+        color: #ffffff;
+    }
+
+    .logo {
+        margin-left: 1%;
+        width: 20%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        width: 78%;
+        margin-right: 1%;
+    }
+
+    .nav1 ul {
+        font-size: 15px;
+    }
+
+    .nav1 {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: -0%;
+        margin-top: 5%;
+    }
+
+    h1logo {
+        text-align: center;
+        font-family: 'Black Pastel', sans-serif;
+        font-size: 1.5em;
+        margin: 0.5em 0;
+
+    }
+
+    .nav2 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin-right: 0%;
+    }
+
+    .nav2 ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .nav2 li {
+        margin: 5px 0;
+    }
+
+    
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer-inicio {
+        display: flex;
+        width: 15%;
+    }
+
+    .footer-mid {
+        display: flex;
+        width: 50%;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-end {
+        display: flex;
+        width: 40%;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer img {
+        height: 100px;
+    }
+
+    .logo-bpk {
+        height: 40px;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .sobrenos {
+        display: none;
+        font-size: 10px;
+    }
+
+    .contato {
+        justify-content: center;
+    }
+
+    .p1-foot {
+        font-size: 15px;
+    }
+
+    .p2-foot {
+        font-size: 8px;
+    }
+
+    .logo-bpk2 {
+        height: 25px;
+    }
+
+    .div-foot {
+        display: flex;
+        margin-right: 0;
+        position: relative;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-foot2 {
+        display: flex;
+        margin: 0;
+        position: relative;
+    }
+
+    .div-feature {
+        position: relative;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 0;
+        margin-right: 0;
+        align-items: center;
+        margin: 0;
+    }
+
+}

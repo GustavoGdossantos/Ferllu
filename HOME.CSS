@@ -1,0 +1,885 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Black Pastel', sans-serif; */
+    /* font-family: 'Montserrat'; */
+}
+/* CSS cabeçalho */
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background: #802d69;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+li :hover {
+    text-decoration: underline 0.1em;
+}
+
+.logo img{
+    height: 5em;
+    width: auto;
+    padding: 0;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.h1logo {
+    text-align: center;
+    font-family: 'Black Pastel', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 0; 
+    flex: 1;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 100%;
+}
+
+.ul1 li {
+    padding: 0 10px;
+}
+
+.ul2 {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    width: 100%;
+}
+
+.ul2 li {
+    margin: 0 5px;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.icone {
+    max-width: 100%;
+    height: 25px;
+}
+/* CSS cabeçalho */
+
+/* CSS capa */
+.capa{
+    background-image: url(Fotos/Capa.jpeg);
+    background-size: cover;
+    transform: scaleX(-1);
+    height: 20em;
+    display: flex;
+}
+.divcapa{
+    width: 30%;
+    padding: 5em 0em 5em 0em;
+    margin: 0em 0em 0em 5em;
+    font-family: 'Black Pastel', sans-serif;
+    transform: scaleX(-1); 
+}
+/* CSS capa */
+
+/* CSS section produtos */
+.produtos img{
+    height: 14em;
+    width: 13em;
+    border-radius: 1em;
+}
+.produtos{
+    display: flex;
+    flex-direction: column;
+    padding: 2em 3em 2em 3em;
+    text-align: center;
+}
+.h21{
+    font-family: 'Montserrat';font-size: 2.3em;
+    font-weight: lighter;
+    padding-bottom: 0.2em;
+}
+.divprodutos1{
+    display: flex;
+    justify-content: center;
+}
+.divproduto2{
+    border-radius: 1em;
+    height: 14em;
+    width: 13em;
+    margin: 2em 3em 2em 3em;
+    }
+.flashcard{
+    height: 14em;
+    width: 13em;
+    margin: 2em 3em 2em 3em;
+}
+
+.flashcartãointerno{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flashcard:hover .flashcartãointerno{
+    transform: rotateY(180deg);
+}
+
+.frentecartão, .atrascartão {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1em;
+}
+
+.frentecartão {
+    background-image: url(Produtos/Fundo.jpeg);
+    background-size: cover;
+    color: black;
+}
+
+.atrascartão {
+    background-image: url(Produtos/Fundo.jpeg);
+    background-size: cover;
+    color: #EFEFEF;
+    transform: rotateY(180deg);
+    font-family: 'Montserrat';
+}
+.atrascartão p{
+    padding: 1em 0.3em 0em 0.3em;
+}
+/* CSS section produtos */
+
+/* CSS sectio aluguel */
+.aluguel{
+    background-color: #802d69;
+    color: #EFEFEF;
+    display: flex;
+    font-family: 'Montserrat';
+}
+.divaluguel1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background: #a95393;
+}
+.divaluguel1 h2{
+    padding: 0.6em;
+    font-weight: lighter;
+    font-size: 2em;
+}
+.divaluguel1 p{
+    padding: 0em 2.3em 2.3em 2.3em;
+    font-size: 1em;
+    text-align: justify;
+}
+.divaluguel2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+.divbotão{
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    padding: 0em 1.5em 1.5em 0em;
+}
+.divbotão2{
+    padding: 1em;
+    border-radius: 2em;
+    background: #EFEFEF;
+    transition: 0.5s;
+}
+.divbotão2:hover{
+    box-shadow: 0px 5px 20px rgba(207, 203, 203, 0.5);
+}
+.divbotão2 a{
+    text-decoration: none;
+    color: black;
+}
+.botãoIMG img{
+    width: 30em;
+    height: 20em;
+    border-radius: 1em;
+    box-shadow: 0.1em 0.1em .5em 0.1em rgb(46, 47, 48);        
+}
+.botãoIMG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22.6em;
+}
+/* CSS sectio aluguel */
+
+/* CSS section ferllu */
+.ferllu{
+    padding: 5em 7em 5em 7em;
+    color: #EFEFEF;
+    font-family: 'Montserrat';
+}
+.divferllu1{
+    width: 60%;
+    background: #a95393;
+}
+.divferllu1 h2{
+    padding: 0.4em;
+    font-size: 3em;
+    font-weight: lighter;
+}
+.divferllu1 p{
+    padding: 0em 2.3em 2.3em 3em
+}
+.divferllu2 img{
+    height: 20em;
+    width: 20em;
+    border-radius: 15em;
+}
+.divferllu2{
+    background: #a95393;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 4em 0em 0em 0em;
+}
+.principalferllu{
+    display: flex;
+    box-shadow: 0.1em 0.1em .5em 0.1em rgb(78, 80, 82);        
+}
+/* CSS section ferllu */
+
+/* CSS footer */
+footer {
+    background: #a95393;
+    display: flex;
+    font-family: 'Montserrat';
+    color: #EFEFEF;
+}
+
+footer img {
+    height: 20em;
+}
+
+.divfooter {
+    display: flex;
+    flex-direction: column;
+    padding: 0em em 0em 2em;
+}
+
+.sobrenos {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    color: #EFEFEF;
+    font-size: 1.3em;
+}
+
+.div-foot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    columns: center;
+    margin: 20px;
+    margin-right: 115px;
+}
+
+.logo-bpk {
+    display: flex;
+    height: 70px;
+    right: 30%;
+    margin-top: 90px;
+}
+
+.logo-bpk2 {
+    height: 50px;
+
+}
+
+.div-foot2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    columns: center;
+    margin: 70px;
+    margin-top: 190px;
+}
+
+.div-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    columns: center;
+    margin: 45px;
+    margin-right: 65px;
+}
+/* CSS footer */
+
+@media (max-width: 1201px){
+.ferllu{
+    padding: 5em 7em 5em 7em;
+}
+
+.divferllu2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.principalferllu{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;  
+}
+.divferllu1{
+    width: 100%;
+}
+.divferllu2{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.aluguel{
+    display: flex;
+    flex-direction: column;
+}
+.divaluguel1{
+    width: 100%;
+}
+.divaluguel2{
+    width: 100%;
+    align-items: center;
+ }
+.divcapa{
+    width: 40%;
+}
+.nav1{
+    width: 55%;
+}
+.divproduto2{
+    height: 12em;
+    width: 13em;
+    }
+.flashcard{
+    height: 12em;
+    width: 13em;
+}
+.produtos img{
+    height: 11em;
+    width: 10em;
+}
+.atrascartão p{
+    font-size: 0.8em;
+}
+}
+
+@media (max-width: 1078px){
+    
+.divprodutos1{
+    align-items: center;
+    flex-direction: column;
+}
+}
+
+@media (max-width: 981px) and (min-width: 700px){
+    .ferllu{
+    padding: 5em 5em 5em 5em;
+    color: #EFEFEF;
+    font-family: 'Montserrat';
+}
+    .divprodutos1{
+    align-items: center;
+    flex-direction: column;
+}
+.divferllu2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.principalferllu{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;  
+}
+.divferllu1{
+    width: 100%;
+}
+.divferllu2{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.aluguel{
+    display: flex;
+    flex-direction: column;
+}
+.divaluguel1{
+    width: 100%;
+}
+.divaluguel2{
+    width: 100%;
+    align-items: center;
+}
+.divcapa{
+    width: 50%;
+}
+.nav1{
+    width: 65%;
+}
+nav{
+    width: 75%;
+}
+}
+
+@media (max-width: 1920px) and (min-width: 1441px) {
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 1440px) and (min-width: 961px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+    }
+    nav {
+        display: flex;
+        width:78% ;
+    }
+
+    .nav1{
+        display: flex;
+        width: 70%;
+    }
+    .nav2{
+        display: flex;
+        width: 20%;
+    }
+    footer img {
+        height: 12em;
+    }
+
+    .logo-bpk {
+        height: 70px;
+        margin-top: 40px;
+    }
+
+    .logo-bpk2 {
+        height: 45px;
+    }
+
+    .div-foot2 {
+        margin: 135px;
+        margin-right: 80px;
+    }
+
+    .div-feature {
+        margin-top: 20px;
+    }
+
+    .ul1 {
+        gap: 5%;
+    }
+
+    .ul2 {
+        gap: 1%;
+        margin-right: 10%;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 768px){
+    .ferllu{
+    padding: 5em 2em 5em 2em;
+    color: #EFEFEF;
+    font-family: 'Montserrat';
+}
+    .divprodutos1{
+    align-items: center;
+    flex-direction: column;
+}
+    .divferllu2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.principalferllu{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;  
+}
+.divferllu1{
+    width: 100%;
+}
+.divferllu2{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.aluguel{
+    display: flex;
+    flex-direction: column;
+}
+.divaluguel1{
+    width: 100%;
+}
+.divaluguel2{
+    width: 100%;
+    align-items: center;
+}
+.botãoIMG img{
+    width: 25em;
+    height: 20em;      
+}
+.divcapa{
+    width: 60%;
+}
+nav{
+    width:85%;
+}
+.nav1{
+    width: 80%;
+}
+.logo{
+    width: 8%;
+}
+.logo img{
+    height: 4em;
+    padding: 1em 0em 0em 2em;
+}
+.icone{
+    height: 1.5em;
+}
+}
+@media (max-width: 768px) {
+    
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #802d69;
+        color: #ffffff;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1%;
+        width: 20%; 
+        text-align: center;
+    }
+
+    .nav1 {
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+
+    h1logo {
+        text-align: center;
+        font-family: 'Black Pastel', sans-serif;
+        font-size: 1.5em; 
+        margin: 0.5em 0; 
+        
+    }
+
+
+    .nav1 ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 0.5em; 
+    }
+
+    .nav1 li {
+        margin: 0 10px;
+    }
+
+    .nav2 {
+        display: flex;
+        text-align: right;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav2 ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width: 960px) and (min-width: 577px) {
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 20%;
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav{
+        width: 78%;
+    }
+    .nav1{
+        width: 70%;
+    }
+    .nav2{
+        width: 20%;
+        margin: 1%;
+    }
+    .botãoIMG img{
+        width: 70%;
+        height: 80%;
+    }
+    footer img {
+        height: 12em;
+    }
+
+    .logo-bpk {
+        height: 55px;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .logo-bpk2 {
+        height: 30px;
+        align-items: center;
+    }
+
+    .div-foot {
+        margin-right: 100px;
+        align-items: center;
+    }
+
+    .div-foot2 {
+        margin: 135px;
+        margin-right: 80px;
+        align-items: center;
+    }
+
+    .div-feature {
+        margin-top: 20px;
+        margin-right: 50px;
+        align-items: center;
+    }
+}
+@media (max-width: 576px) {
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #802d69;
+    color: #ffffff;
+    }
+
+    .logo {
+    margin-left: 1%;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    nav{
+        display: flex;
+        width: 78%;
+        margin-right: 1%;
+    }
+
+    .nav1 ul{
+        font-size: 15px;
+    }
+    .nav1 {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: -0%;
+        margin-top: 5%;
+    }
+
+    h1logo{
+        text-align: center;
+        font-family: 'Black Pastel', sans-serif;
+        font-size: 1.5em; 
+        margin: 0.5em 0; 
+        
+    }
+
+    .nav2 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin-right: 0%;
+    }
+
+    .nav2 ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .nav2 li {
+        margin: 5px 0;
+    }
+    .botãoIMG img{
+        width: 80%;
+        height: 80%;
+    }
+    .botãoIMG{
+        margin: 0;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer-inicio{
+        display: flex;
+        width: 15%;
+    }
+    .footer-mid{
+        display: flex;
+        width: 50%;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-end{
+        display: flex;
+        width: 40%;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer img {
+        height: 100px;
+    }
+
+    .logo-bpk {
+        height: 40px;
+        margin-top: 0;
+        align-items: center;
+    }
+    .sobrenos{
+        display: none;
+        font-size: 10px;
+    }
+    .contato{
+        justify-content: center;
+    }
+    .p1-foot{
+        font-size: 15px;
+    }
+    .p2-foot{
+        font-size: 8px;
+    }
+    .logo-bpk2 {
+        height: 25px;
+    }
+
+    .div-foot {
+        display: flex;
+        margin-right: 0;
+        position: relative;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-foot2 {
+        display: flex;
+        margin: 0;
+        position: relative;
+    }
+
+    .div-feature {
+        position: relative;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 0;
+        margin-right: 0;
+        align-items: center;
+        margin: 0;
+    }
+}
